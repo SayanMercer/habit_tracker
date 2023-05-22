@@ -24,6 +24,7 @@ a:hover {
   transition: box-shadow 0.3s ease-in-out;
 }
 
+
 .container:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
@@ -176,24 +177,17 @@ a:hover {
   text-align: center;
 } 
 
- .circle-icon {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: blue;
-  color: #FFFFFF;
-  font-size: 20px;
-  line-height: 40px;
-  text-align: center;
-  margin: 10px;
+
+.circle-icon {
+  font-size: 24px;
+  margin: 5px 11px;
+  /* color: #0B5ED7; */
   cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  transition: background-color 0.3s ease-in-out;
 }
 
 .circle-icon:hover {
-  background-color: #25cc00;
+  background-color: #FF7043;
+  transform: scale(1.1);
 }
 .active {
   color: #FF5500;
